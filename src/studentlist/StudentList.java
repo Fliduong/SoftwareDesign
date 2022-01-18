@@ -17,7 +17,7 @@ public class StudentList {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Student[] s1 = new Student[3]; //declare student obj array
+        Student[] s1 = new Student[5]; //declare student obj array
         Scanner input = new Scanner(System.in);
         
         for (int i=0; i<s1.length; i++){
