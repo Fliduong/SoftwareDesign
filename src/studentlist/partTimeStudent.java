@@ -11,8 +11,7 @@ package studentlist;
 public class partTimeStudent extends Student {
     private int numCourses;
     
-    public partTimeStudent (String name, in numCourses){
-        this.name = name;
+    public partTimeStudent (String name, int numCourses){
         this.numCourses = numCourses;
     }
     
