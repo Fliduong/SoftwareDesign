@@ -10,6 +10,7 @@ package studentlist;
  */
 public class Student {
     private String name;
+    private int studentID;
     
     public Student(){
         
@@ -21,5 +22,19 @@ public class Student {
     
     public String getName(){
         return this.name;
+    }
+
+    /**
+     * @return the studentID
+     */
+    public int getStudentID() {
+        return studentID;
+    }
+
+    /**
+     * @param studentID the studentID to set
+     */
+    public void setStudentID(int studentID) {
+        this.studentID = studentID;
     }
 }
