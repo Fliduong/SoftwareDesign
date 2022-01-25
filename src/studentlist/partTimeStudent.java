@@ -12,7 +12,7 @@ public class partTimeStudent extends Student {
     private int numCourses;
     
     public partTimeStudent (String name, in numCourses){
-        super(name);
+        this.name = name;
         this.numCourses = numCourses;
     }
     
