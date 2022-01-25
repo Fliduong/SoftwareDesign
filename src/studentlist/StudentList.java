@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author fiona
+ * @author fiona Jan 25 2022
  */
 public class StudentList {
 
